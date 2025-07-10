@@ -15,3 +15,18 @@
 ## 🧠 الفكرة
 
 عند الضغط على كل زر، تضيء اللمبة المرتبطة به. تُطفأ عند رفع الضغط عن الزر.
+#كود الأوردوينو
+// C++ code
+//
+void setup()
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
